@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Script</title>
+  <style>
+      /*style design pentru body coloare neagra si text alb*/
+      body{
+          background-color: black;  
+          color:white;
+      }
+      /*design pentru heading sa fie la mijloc*/
+      h1{
+            text-align: center;
+      }
+  </style>
+</head>
+<body>
+ <main>
+  <h1>Contact info</h1> <!-- heading -->
+  <form id="contactForm" action="https://formspree.io/f/{xdjeB1}" method="post">
+
+      <!-- formular de contact din script cu nume,email,continut si buton de submit care te trimite pe un site de formulare(frontend) -->
+      <label for="name">Name:</label>
+      <input type="text" name="name" placeholder="Your Name">
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="Your Email">
+      <label for="message">Your message:</label>
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+
+  </form>
+ </main>
+</body>
+</html>
